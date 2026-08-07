@@ -1,4 +1,4 @@
-# Milky Way
+<img width="403" height="270" alt="image" src="https://github.com/user-attachments/assets/ac1acd1f-bfee-4dc3-907f-ffc5684ac308" /># Milky Way
 
 Python-проект с оверлеем и настраиваемой панелью Milky Way.
 
@@ -29,4 +29,8 @@ Python-проект с оверлеем и настраиваемой панел
 - создание, сохранение, загрузка и удаление CFG;
 - адаптивная частота обновления для снижения нагрузки.
 
-Используйте проект только там, где это разрешено правилами игры и сервера. Проект не содержит обхода VAC или средств сокрытия процесса.
+
+<img width="1273" height="1016" alt="image" src="https://github.com/user-attachments/assets/ca52a96d-06cf-4882-af8d-aca06e51b115" />
+<img width="1272" height="1011" alt="image" src="https://github.com/user-attachments/assets/ebacc11a-19d7-42ae-8661-5fdc54177a66" />
+
+
