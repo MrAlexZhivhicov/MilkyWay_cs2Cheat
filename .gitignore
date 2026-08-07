@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+AsukaProject/logs/
+AsukaProject/configs/*.json
+*.log
