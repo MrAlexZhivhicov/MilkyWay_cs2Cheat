@@ -1,2 +1,17 @@
-# MilkyWay_cs2Cheat
-External Python cheat for cs2
+# Milky Way
+
+## Запуск
+
+1. Установите зависимости: `pip install -r requirements.txt`.
+2. Запустите CS2.
+3. Запустите `python main.py`.
+
+## Структура
+
+- `main.py` — launcher проекта.
+- `configs/` — именованные CFG-профили.
+- `logs/` — журнал работы.
+- `scripts/` — место для дополнительных модулей.
+- `../Asuka.py` — основной runtime.
+
+F1 скрывает или показывает панель. F2 включает или отключает все функции.
