@@ -34,3 +34,8 @@ Python-проект с оверлеем и настраиваемой панел
 <img width="1272" height="1011" alt="image" src="https://github.com/user-attachments/assets/ebacc11a-19d7-42ae-8661-5fdc54177a66" />
 
 
+
+
+
+если есть вопросы --> uwu015329 / any questions --> uwu015329
+
