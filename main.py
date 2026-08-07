@@ -35,9 +35,10 @@ PROCESS_NAME = "cs2.exe"
 MOUSE_VKEYS = {"mouse1": 0x01, "mouse2": 0x02, "mouse3": 0x04, "mouse4": 0x05, "mouse5": 0x06}
 OFFSETS_URL = "https://raw.githubusercontent.com/a2x/cs2-dumper/main/output/offsets.json"
 CLIENT_URL = "https://raw.githubusercontent.com/a2x/cs2-dumper/main/output/client_dll.json"
-PROJECT_DIR = Path(__file__).resolve().with_name("AsukaProject")
+PROJECT_DIR = Path(__file__).resolve().parent
 CONFIG_DIR = PROJECT_DIR / "configs"
 LOG_DIR = PROJECT_DIR / "logs"
+SCRIPTS_DIR = PROJECT_DIR / "scripts"
 CONFIG_PATH = CONFIG_DIR / "default.json"
 LOG_PATH = LOG_DIR / "milky_way.log"
 
@@ -62,6 +63,7 @@ def input_is_pressed(name: str) -> bool:
 def configure_logging() -> None:
     CONFIG_DIR.mkdir(parents=True, exist_ok=True)
     LOG_DIR.mkdir(parents=True, exist_ok=True)
+    SCRIPTS_DIR.mkdir(parents=True, exist_ok=True)
     logging.basicConfig(
         filename=LOG_PATH,
         level=logging.INFO,
